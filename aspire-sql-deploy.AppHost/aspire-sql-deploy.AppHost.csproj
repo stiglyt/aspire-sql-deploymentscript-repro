@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\aspire-sql-deploy.ApiService\aspire-sql-deploy.ApiService.csproj" />
-    <ProjectReference Include="..\aspire-sql-deploy.Web\aspire-sql-deploy.Web.csproj" />
   </ItemGroup>
 
   <ItemGroup>
