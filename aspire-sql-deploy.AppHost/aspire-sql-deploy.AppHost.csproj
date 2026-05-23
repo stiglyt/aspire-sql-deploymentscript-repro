@@ -1,0 +1,21 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.3.5">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>e88d7fd4-4358-4dbd-9936-300060befddb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aspire-sql-deploy.ApiService\aspire-sql-deploy.ApiService.csproj" />
+    <ProjectReference Include="..\aspire-sql-deploy.Web\aspire-sql-deploy.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.Azure.AppContainers" Version="13.3.5" />
+    <PackageReference Include="Aspire.Hosting.Azure.Sql" Version="13.3.5" />
+  </ItemGroup>
+
+</Project>

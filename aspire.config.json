@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "aspire-sql-deploy.AppHost/aspire-sql-deploy.AppHost.csproj"
+  }
+}
